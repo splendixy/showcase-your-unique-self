@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const HeroSection: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950 dark:to-indigo-950 -z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 -z-10"></div>
       
       <div className="section-container grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8 animate-fade-in">
@@ -35,9 +35,9 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className="relative h-80 md:h-full min-h-[400px] animate-fade-in">
-          <div className="absolute inset-0 bg-primary/10 rounded-3xl overflow-hidden flex items-center justify-center">
-            <div className="w-52 h-52 bg-primary/20 rounded-full flex items-center justify-center">
-              <div className="w-32 h-32 bg-primary/30 rounded-full"></div>
+          <div className="absolute inset-0 bg-gray-200/50 dark:bg-gray-700/30 rounded-3xl overflow-hidden flex items-center justify-center">
+            <div className="w-52 h-52 bg-gray-300/50 dark:bg-gray-600/30 rounded-full flex items-center justify-center">
+              <div className="w-32 h-32 bg-gray-400/50 dark:bg-gray-500/30 rounded-full"></div>
             </div>
           </div>
           

@@ -42,7 +42,7 @@ const projects: Project[] = [
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section id="projects" className="bg-secondary/50 py-16 sm:py-24">
+    <section id="projects" className="bg-gray-50 dark:bg-gray-900 py-16 sm:py-24">
       <div className="section-container">
         <h2 className="section-title">My Projects</h2>
         

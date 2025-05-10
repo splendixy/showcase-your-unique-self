@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="bg-background py-16 sm:py-24">
+    <section id="about" className="bg-white dark:bg-gray-800 py-16 sm:py-24">
       <div className="section-container">
         <h2 className="section-title">About Me</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-80 rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-indigo-400/20"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-200/40 to-gray-300/40 dark:from-gray-700/30 dark:to-gray-600/30"></div>
             
             {/* This would be replaced with an actual image */}
-            <div className="absolute inset-0 flex items-center justify-center text-primary/30">
+            <div className="absolute inset-0 flex items-center justify-center text-gray-400 dark:text-gray-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>

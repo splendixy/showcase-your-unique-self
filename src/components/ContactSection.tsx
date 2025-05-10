@@ -23,7 +23,7 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="bg-secondary/50 py-16 sm:py-24">
+    <section id="contact" className="bg-gray-50 dark:bg-gray-900 py-16 sm:py-24">
       <div className="section-container">
         <h2 className="section-title">Get In Touch</h2>
         
